@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="258.0" prefWidth="529.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RechercheParController">
+   <children>
+      <CheckBox fx:id="checkNom" layoutX="86.0" layoutY="72.0" mnemonicParsing="false" text="Nom" />
+      <CheckBox fx:id="checkMatricule" layoutX="229.0" layoutY="72.0" mnemonicParsing="false" text="Matricule" />
+      <CheckBox fx:id="checkDate" layoutX="383.0" layoutY="72.0" mnemonicParsing="false" text="Date" />
+      <Button layoutX="218.0" layoutY="186.0" mnemonicParsing="false" onAction="#VALIDER" prefHeight="25.0" prefWidth="71.0" text="Valider" />
+   </children>
+</AnchorPane>
